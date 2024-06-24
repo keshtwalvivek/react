@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../Header/Header";
 import ExploreMenu from "../../ExploreMenu/ExploreMenu";
+import FoodDisplay from "../../FoodDisplay/FoodDisplay";
 function Home() {
-  const [catogory, setCatogory] = useState("All");
+  const [category, setCatogory] = useState("All");
 
   return (
     <div>
       <Header />
-      <ExploreMenu catogory={catogory} setCatogory={setCatogory} />
+      <ExploreMenu catogory={category} setCatogory={setCatogory} />
+      <FoodDisplay category={category} />
     </div>
   );
 }
