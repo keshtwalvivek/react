@@ -1,8 +1,14 @@
-# React + Vite
+# Food-Delivery-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+your-project-name/
+├── public/ # Static assets like images and fonts
+│ └── dishes.json # JSON file containing dishes data and photos
+├── src/
+│ ├── App.jsx # Main application component
+│ ├── components/
+│ │ └── Header.jsx # Reusable header component
+│ ├── context/
+│ │ └── DishesContext.jsx # Context for managing dishes data
+│ └── index.jsx # Entry point for the application
+├── package.json # Project dependencies and scripts
+README.md # Th
